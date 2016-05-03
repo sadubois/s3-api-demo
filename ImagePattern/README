@@ -1,0 +1,13 @@
+
+
+
+
+# AWS CLI awscli
+Sachas-MacBook:ImagePattern sdu$ cat ~/.aws/credentials
+[default]
+aws_access_key_id = AKIAI33CEK2WIMBU6T5Q
+aws_secret_access_key = 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
+Default region name [eu-central]: eu-central-1 
+aws configure
+aws s3 ls s3://aws-s3-sdu
+aws s3 ls s3://image-pattern
